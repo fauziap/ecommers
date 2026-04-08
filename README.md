@@ -23,8 +23,6 @@ Sebelumnya pastikan menginstall terlebih dahulu kebutuhan sistem untuk menggunak
 ## Cara Install
 1. Cloning repository ini melalui terminal. Tunggu hingga selesai cloning.
 ```
-git clone https://github.com/yuris60/TokoOnline.git
-```
 2.  Buka project menggunakan Code Editor, lalu inisiasi dependensi composer melalui terminal.
 ```
 composer install
@@ -50,32 +48,3 @@ php artisan storage:link
 ```
 php artisan migrate:fresh --seed
 ```
-
-## Screenshot
-<table width="100%">
-<tr>
-<td><h3 align="center">Login</h3><img src="public/backend/image/screenshot/ss_login.png"></td>
-<td><h3 align="center">Home</h3><img src="public/backend/image/screenshot/ss_home.png"></td>
-</tr>
-<tr>
-<td><h3 align="center">User</h3><img src="public/backend/image/screenshot/ss_user.png"></td>
-<td><h3 align="center">Kategori</h3><img src="public/backend/image/screenshot/ss_kategori.png"></td>
-</tr>
-<tr>
-<td><h3 align="center">Produk</h3><img src="public/backend/image/screenshot/ss_produk.png"></td>
-<td><h3 align="center">Tambah Foto Produk</h3><img src="public/backend/image/screenshot/ss_tambah_gambar_produk.png"></td>
-</tr>
-<tr>
-<td><h3 align="center">Laporan User</h3><img src="public/backend/image/screenshot/ss_laporan_user.png"></td>
-<td><h3 align="center">Laporan Produk</h3><img src="public/backend/image/screenshot/ss_laporan_produk.png"></td>
-</tr>
-</table>
-
-## Video Tutorial
-Project ini sudah didokumentasikan dan dipublikasi melalui akun Youtube. Silakan kunjungi link <a href="https://www.youtube.com/playlist?list=PLQ-zS5A7YYio0505gQRdu9v4CJT--WSW2">berikut</a>.
-<p align="center"><a href="https://www.youtube.com/playlist?list=PLQ-zS5A7YYio0505gQRdu9v4CJT--WSW2" target="_blank"><img src="public/backend/image/screenshot/ss_preview_tutorial.png" width="800" alt="Playlist Youtube"></a></p>
-
-## Lisensi
-
-Project ini mengacu pada modul praktik dari mata kuliah Web Programming II Universitas Bina Sarana Informatika (UBSI). Project ini bersifat open-source untuk edukasi.
-<blockquote>Kuliah...? BSI AJA !!</blockquote>
